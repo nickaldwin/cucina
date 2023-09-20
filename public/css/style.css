@@ -1,59 +1,60 @@
+html,
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
+    height: 100%;
+    font-size: 1rem;
 }
 
-.container {
-  background-color: #FF5733;
-  padding: 20px;
-  border-bottom: 2px solid #e5e5e5;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.main-title a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 2.5em;
-}
-
-.main-title a:hover {
-  text-decoration: underline;
-}
-
-.subtitle {
-  font-size: 1.4em;
-  color: #eee;
-  margin-top: 10px;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .container {
-      padding: 15px; /* Reduce padding for smaller screens */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 
-  .main-title a {
-      font-size: 2em; /* Adjust title font size for smaller screens */
-  }
-
-  .subtitle {
-      font-size: 1.2em; /* Adjust subtitle font size for smaller screens */
-  }
+.card-container{
+  margin-top: 10rem;  
 }
 
-@media (max-width: 576px) {
-  .main-title a {
-      font-size: 1.8em; /* Further reduce title font size for very small screens */
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+}
+
+/* .page-section {
+    background-color: red;
+    height: 40%;
+} */
+
+.btn-nav{
+    margin-right: .5rem;
+}
+
+
+
+.home{
+    border: 2px solid black;
+    min-height: 80vh;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 80%;
+}
+
+.btn-liked{
+    color: #f03566;
   }
 
-  .subtitle {
-      font-size: 1em; /* Further reduce subtitle font size for very small screens */
-  }
+.btn-bookmarked{
+    background: #ffff;
 }
+
+.btn-sign-in{
+    background-color: #e94135;
+    color: #ffff;
+}
+
+/* .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+} */

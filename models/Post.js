@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const RecipieSchema = new mongoose.Schema({
+const PostSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
@@ -9,42 +9,35 @@ const RecipieSchema = new mongoose.Schema({
     type: String,
     require: true,
   },
-
-  country:{
+  country: {
     type: String,
     require: true,
   },
-  
-  dish:{
+  dish: {
     type: String,
     require: true,
   },
-  
-  ingredients:{
+  ingredients: {
     type: [String],
     require: true,
   },
-
-  directions:{
+  directions: {
     type: [String],
     require: true,
-  },  
-  
+  },
   cloudinaryId: {
     type: String,
     require: true,
   },
-
   caption: {
     type: String,
     required: true,
   },
-
   likes: {
-    type: Number,
+    type: Array,
     required: true,
   },
-  bookmarks:{
+  bookmarks: {
     type: Array,
     required: true,
   },
@@ -52,11 +45,10 @@ const RecipieSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
-
   createdAt: {
     type: Date,
     default: Date.now,
   },
 });
 
-module.exports = mongoose.model("Recipie", RecipieSchema);
+module.exports = mongoose.model("Post", PostSchema);
