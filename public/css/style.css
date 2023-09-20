@@ -1,16 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif; /* Choose a modern, attractive font */
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
 }
 
 .container {
-  background-color: #FF5733; /* Attractive background color */
+  background-color: #FF5733;
   padding: 20px;
   border-bottom: 2px solid #e5e5e5;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff; /* Text color on the header */
+  color: #fff;
 }
 
 .text-center {
@@ -19,16 +19,41 @@ body {
 
 .main-title a {
   text-decoration: none;
-  color: #fff; /* Text color for the title link */
-  font-size: 2.5em; /* Larger font size for the title */
+  color: #fff;
+  font-size: 2.5em;
 }
 
 .main-title a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
 .subtitle {
-  font-size: 1.4em; /* Larger font size for the subtitle */
-  color: #eee; /* Slightly lighter color for the subtitle text */
+  font-size: 1.4em;
+  color: #eee;
   margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+      padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .main-title a {
+      font-size: 2em; /* Adjust title font size for smaller screens */
+  }
+
+  .subtitle {
+      font-size: 1.2em; /* Adjust subtitle font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title a {
+      font-size: 1.8em; /* Further reduce title font size for very small screens */
+  }
+
+  .subtitle {
+      font-size: 1em; /* Further reduce subtitle font size for very small screens */
+  }
 }
