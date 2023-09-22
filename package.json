@@ -1,7 +1,7 @@
 {
   "name": "binary-upload-boom",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "food recipie website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
