@@ -1,7 +1,7 @@
 # Cucina
 A place to share, and discover family recipes.
 
-**Link to project:** https://comal.cyclic.app/ <br>
+**Link to project:**  <br>
 **Demo User** <br>
 email: tester1234@gmail.com <br>
 password: tester1234
