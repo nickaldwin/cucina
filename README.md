@@ -1,6 +1,4 @@
-
-
-# Cucina- Latinx stories told through the lens of food
+# Cucina
 A place to share, and discover family recipes.
 
 **Link to project:** https://comal.cyclic.app/ <br>
