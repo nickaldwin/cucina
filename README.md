@@ -1,12 +1,7 @@
 
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/64442298/122506015-58731f00-cfb2-11eb-8680-4812796e44f9.png" width="224px"/><br/>
-  Comal <br>
-  Latinx stories told through the lens of food
-</h1>
-<!-- 
+
 # Comal - Latinx stories told through the lens of food
-A place for Latinx families to document, share, and discover family recipes. -->
+A place to share, and discover family recipes.
 
 **Link to project:** https://comal.cyclic.app/ <br>
 **Demo User** <br>
