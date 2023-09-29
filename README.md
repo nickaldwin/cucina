@@ -59,6 +59,6 @@ To get started with Cucina, follow these installation steps:
     "validator": "^13.6.0"
 ```
 
-E
+
 
 
