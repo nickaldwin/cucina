@@ -39,7 +39,7 @@ To get started with Cucina, follow these installation steps:
 # How It's Made:
 
 - Tech used:
-
+```package.json
 "bcrypt": "^5.0.1",
     "cloudinary": "^1.25.1",
     "connect-mongo": "^3.2.0",
@@ -55,9 +55,10 @@ To get started with Cucina, follow these installation steps:
     "multer": "^1.4.2",
     "nodemon": "^2.0.7",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
+    "passport-local": "^1.0.0", 
     "validator": "^13.6.0"
+```
 
-Enjoy cooking with Cucina, and bon appétit!
+E
 
 
