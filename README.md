@@ -58,6 +58,6 @@ To get started with Cucina, follow these installation steps:
     "passport-local": "^1.0.0",
     "validator": "^13.6.0"
 
-
+Enjoy cooking with Cucina, and bon appétit!
 
 
