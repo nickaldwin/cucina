@@ -20,7 +20,7 @@ To get started with Cucina, follow these installation steps:
 
 2. cd cucina and do npm install it will install the  dependencies
 
--   if you dont have npm go to this github repo [nvm -node version manager ]([Your Name](https://github.com/yourusername)) allows you to quickly install and use different versions of node via the command line.
+-   if you dont have npm go to this github repo (nvm -node version manager)(https://github.com/yourusername)) allows you to quickly install and use different versions of node via the command line.
 - copy and paste on your terminal `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`
 
 
