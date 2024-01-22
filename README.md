@@ -59,6 +59,11 @@ To get started with Cucina, follow these installation steps:
     "validator": "^13.6.0"
 ```
 
+## Recent projects:
+Check my recent projects here:
 
+**Onlyfriends:** https://github.com/nickaldwin/Onlyfriends
+
+**Intelique** https://github.com/nickaldwin/IntelliQueue-
 
 
