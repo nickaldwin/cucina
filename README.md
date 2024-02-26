@@ -38,7 +38,7 @@ To get started with Cucina, follow these installation steps:
 
 # How It's Made:
 
-- Tech used:
+Tech used:
 ```package.json
 "bcrypt": "^5.0.1",
     "cloudinary": "^1.25.1",
