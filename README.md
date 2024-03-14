@@ -1,4 +1,4 @@
-# Cucina - Food Recipe App
+# Cucina
 
 Cucina is a food recipe app that allows you to discover, explore, and cook a wide variety of delicious dishes from around the world. Whether you're a seasoned chef or a beginner in the kitchen, Cucina has something for everyone.
 
